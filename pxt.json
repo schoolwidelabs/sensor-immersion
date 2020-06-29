@@ -9,7 +9,8 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "Tutorial_Sound_Data.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -18,5 +19,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
