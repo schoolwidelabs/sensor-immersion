@@ -1,6 +1,10 @@
 
 > Open this page at [https://schoolwidelabs.github.io/sensor-immersion/](https://schoolwidelabs.github.io/sensor-immersion/)
 
+## Tutorials
+
+* [Sound Data](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Data)
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
