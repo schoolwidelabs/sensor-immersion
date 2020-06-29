@@ -10,7 +10,8 @@
         "README.md",
         "main.blocks",
         "main.ts",
-        "Tutorial_Sound_Data.md"
+        "Tutorial_Sound_Data.md",
+        "Tutorial_Sound_Display.md"
     ],
     "testFiles": [
         "test.ts"
