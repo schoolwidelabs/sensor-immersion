@@ -3,11 +3,25 @@
 
 ## Tutorials
 
+### Sound Sensor
 * [Sound Data](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Data)
+* [Sound Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Display)
+
+### Environmental Sensor
+
+### Soil Moisture Sensor
+
+### Particle Sensor
+
+### UV Sensor 
+
+### Magnetometer
+
+### Accelerometer 
 
 ## Use as Extension
 
-This repository can be added as an **extension** in MakeCode.
+[//] This repository can be added as an **extension** in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
