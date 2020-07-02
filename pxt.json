@@ -12,7 +12,8 @@
         "main.ts",
         "Tutorial_Sound_Data.md",
         "Tutorial_Sound_Display.md",
-        "magnetometer_display_field_strength.md"
+        "magnetometer_display_field_strength.md",
+        "Tutorial_Environmental_Data.md"
     ],
     "testFiles": [
         "test.ts"
