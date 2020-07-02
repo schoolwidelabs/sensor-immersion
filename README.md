@@ -16,7 +16,7 @@
 ### UV Sensor 
 
 ### Magnetometer
-
+* [Magnetometer Display] https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Display
 ### Accelerometer 
 
 ## Use as Extension
