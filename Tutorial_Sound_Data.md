@@ -3,6 +3,10 @@
 
 ## Introduction 
 Sound Sensor Data Collection Challenge. Continuously collect sound samples every 5 seconds and display them using the lights on the micro:bit. 
+```template
+//
+```
+
 
 ## Step 1
 ``||basic: Continuously||`` ``||basic: show a number||``. 
