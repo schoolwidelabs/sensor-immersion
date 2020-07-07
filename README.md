@@ -17,6 +17,7 @@
 
 ### Magnetometer
 * [Magnetometer Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
+* [Magnetometer Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
 ### Accelerometer 
 
 ## Use as Extension
