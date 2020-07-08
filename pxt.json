@@ -13,9 +13,7 @@
         "Tutorial_Sound_Data.md",
         "Tutorial_Sound_Display.md",
         "magnetometer_display_field_strength.md",
-        "Tutorial_Environmental_Data.md",
-        "magnetometer_metal_detector_makecode.md",
-        "magnetometer_metal_detector.md"
+        "Tutorial_Environmental_Data.md"
     ],
     "testFiles": [
         "test.ts"
