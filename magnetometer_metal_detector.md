@@ -1,4 +1,3 @@
-
 # Metal Detector
 ### @explicitHints true
  
@@ -113,4 +112,4 @@ input.onButtonPressed(Button.A, function () {
     basic.showNumber(Math.round(input.magneticForce(Dimension.Strength)))
 })
 ```
-    
+  # magnetometer_metal_detector
