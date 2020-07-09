@@ -19,6 +19,7 @@
 * [Magnetometer Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
 * [Magnetometer Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_metal_detector)
 * [Magnetometer Modified Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_modified_metal_detector)
+* [Magnetometer Real Time Display Simulation](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_datalogger)
 * [Magnetometer Real Time Display with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
 ### Accelerometer 
 
