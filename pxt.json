@@ -16,7 +16,8 @@
         "magnetometer_metal_detector.ts",
         "Tutorial_Environmental_Data.md",
         "magnetometer_modified_metal_detector.md",
-        "magnetometer_metal_detector.md"
+        "magnetometer_metal_detector.md",
+        "magnetometer_display_magnetic_field_radio_two_microbits_and_simulator.md"
     ],
     "testFiles": [
         "test.ts"
