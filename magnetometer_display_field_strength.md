@@ -5,9 +5,10 @@
  
 We are going write a program to display the strength of the magnetic field on your micro:bit
  
-Submit your answers using this google form with your teacher's name that ends with "Display Magnet Strenth"
+Submit your answers using the google form under your teacher's name titled "Display Magnet Strength"
  
-https://schoolwidelabs.github.io/sensor-immersion/ 
+https://schoolwidelabs.github.io/sensor-immersion-google-forms 
+
  
 ## before you begin
  
