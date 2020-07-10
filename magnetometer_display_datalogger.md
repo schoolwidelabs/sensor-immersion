@@ -8,7 +8,7 @@ We are going to learn how to use a micro:bit to collect data on the magnetic for
  
 Submit your answers using the google form under your teacher's name titled "magnetic field radio data logger simulator"
  
-https://schoolwidelabs.github.io/sensor-immersion/magnets-fa/ 
+https://schoolwidelabs.github.io/sensor-immersion-google-forms
  
 ```template
 basic.forever(function () {
