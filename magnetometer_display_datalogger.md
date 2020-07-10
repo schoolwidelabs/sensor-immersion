@@ -6,9 +6,9 @@
  
 We are going to learn how to use a micro:bit to collect data on the magnetic force that you can see on your computer screen.
  
-Submit your answers using this google form with your teacher's name that ends with "display magnetic field radio data logger simulator"
+Submit your answers using the google form under your teacher's name titled "magnetic field radio data logger simulator"
  
-https://schoolwidelabs.github.io/sensor-immersion/ 
+https://schoolwidelabs.github.io/sensor-immersion/magnets-fa/ 
  
 ```template
 basic.forever(function () {
