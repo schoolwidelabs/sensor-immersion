@@ -15,6 +15,9 @@
 
 ### UV Sensor 
 
+### Temperature Sensor
+* [Display Temperaure](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature)
+
 ### Magnetometer
 * [Magnetometer Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
 * [Magnetometer Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_metal_detector)
