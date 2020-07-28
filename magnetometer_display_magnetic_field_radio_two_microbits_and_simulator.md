@@ -6,9 +6,9 @@
 
 We are going to learn how to use two micro:bits to collect data on the magnetic force that you can see on your computer screen. One will collect data and send it to the other that is plugged into the computer and creating the graph.
 
-Submit your answers using this google form with your teacher's name that ends with "display magnetic field radio, two micro:bits and simulator"
+Submit your answers using the google form with your teacher's name that ends with "display magnetic field radio, two micro:bits and simulator"
 
-https://schoolwidelabs.github.io/sensor-immersion/ 
+https://schoolwidelabs.github.io/sensor-immersion-google-forms/ 
 
 ```template
 input.onButtonPressed(Button.A, function () {
