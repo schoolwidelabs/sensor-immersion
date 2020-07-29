@@ -52,7 +52,7 @@ basic.forever(function () {
 ## step 6
 Great! You did it. Now you can test it out. If it gets stuck, try hitting the refresh icon to restart the simulator and then click "show console" to see the data
  
-**Don't forget to fill out the final questions on the goolge form.**
+**Don't forget to fill out the final questions on the google form.**
  
 ```ghost
 basic.forever(function () {
