@@ -16,7 +16,8 @@
 ### UV Sensor 
 
 ### Temperature Sensor
-* [Display Temperaure](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature)
+* [Display Temperaure (micro:bit sensor)](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature)
+* [Display Temperature (Gator:Environmental Sensor)](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
 
 ### Magnetometer
 * [Magnetometer Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
