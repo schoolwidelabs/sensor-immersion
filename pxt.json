@@ -19,7 +19,8 @@
         "magnetometer_metal_detector.md",
         "magnetometer_display_magnetic_field_radio_two_microbits_and_simulator.md",
         "magnetometer_display_datalogger.md",
-        "tutorial_display_temperature.md"
+        "tutorial_display_temperature.md",
+        "tutorial_display_temperature_gatorenvironment.md"
     ],
     "testFiles": [
         "test.ts"
