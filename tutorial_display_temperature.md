@@ -6,7 +6,7 @@
  
 We are going to learn how to use a micro:bit to display temperature values
  
-Submit your answers using the google form under your teacher's name titled "display temperature"
+Submit your answers using the google form under your teacher's name titled "display temperature micro:bit"
  
 https://schoolwidelabs.github.io/sensor-immersion-google-forms
 
