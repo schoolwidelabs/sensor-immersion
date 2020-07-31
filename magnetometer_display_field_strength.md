@@ -45,6 +45,8 @@ Experiment with each and when you are done, **put your answer and a screenshot o
 ## Step 5
  
 Congratulations, you're done!
+
+When you start, you might be told to "tilt to fill". If so, tilt the microbit around until all the lights are on. Here is a video: https://support.microbit.org/support/solutions/articles/19000008874-calibrating-the-micro-bit-compass 
  
 **Fill out the final question in the google form**
  
