@@ -11,9 +11,9 @@ The Tutorials in this lesson explore how the micro:bit communicates with the sen
   * [Magnet Strength Real Time Display with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
 
 ### Environmental Sensor
-* [Show Temperature Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
-* [Show Temperature Intermediate](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_intermediate)
-* [Show Temperature Advanced](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_advanced)
+* [Show Temperature gator:bit Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
+* [Show Temperature gator:bit Intermediate](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_intermediate)
+* [Show Temperature gator:bit Advanced](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_advanced)
 * Temperature Collector Data Logger: To be added.
 * Temperature Collector Data Logger using Radio: To be added.
 
