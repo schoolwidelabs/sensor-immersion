@@ -1,4 +1,4 @@
-# display temperature tutorial with gatorEnvironment
+# Collecting Temperature Data with the Environmental Sensor
 ### @explicitHints true
  
 ## Step 1
@@ -23,36 +23,37 @@ Describe your plan for getting the microbit to display the temperature values
  
 ## Step 3
  
-To start, use the GatorEnvironment ``||gatorEnvironment: initialize||`` command start the sensor when the program starts
+To start, use the GatorEnvironment ``||gatorEnvironment: initialize||`` command start the sensor when the ``||basic: program starts||``
  
  
 ## Step 4
  
-Use the ``||basic:showNumber||`` and ``||gatorEnvironment.get||`` commands to show the temperature on the micro:bit 
+Use the ``||basic:showNumber||`` and ``||gatorEnvironment.get||`` commands to show the temperature on the micro:bit. Make sure to ``||Math: round||`` 
+so you can read the number on the micro:bit.
  
  
 #### ~ tutorialhint
 
-Rounding is optional but helpful
+Rounding makes the value easier to read on the display. 
+Instead of seeing 72.9999999999, you just see 73.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.degreesC)))
+    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.degreesF)))
 })
 
 ```
  
-## step 5
+## Step 5
 Great! You did it. Now you can test it out. How could you use the Math buttons to change the display to two times the temperature? Would you round before or after you double the temperature?
  
 **Don't forget to fill out the final questions on the goolge form.**
  
 ```ghost
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.degreesC) * 2))
+    basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.degreesF) * 2))
 })
 gatorEnvironment.beginEnvironment()
-radio.setGroup(1)
 ```
 
 ```package
