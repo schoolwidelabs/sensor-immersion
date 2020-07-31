@@ -32,7 +32,7 @@ After you get it working, how could you use the Math buttons to change the displ
  
 **Don't forget to fill out the final questions on the goolge form.**
 
-#### ~ tutorialhint
+### ~ tutorialhint
 What needs to happen with the ``||gatorEnvironment: environmental sensor||`` when the progam on the micro:bit 
 ``||basic: starts?||``
 
