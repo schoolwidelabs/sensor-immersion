@@ -1,57 +1,46 @@
+# Sensor Immersion
+These are the programming tutorials that help you learn about how the micro:bit, gator:bit, and clippable sensors work together to collect data and create data displays.
 
-> Open this page at [https://schoolwidelabs.github.io/sensor-immersion/](https://schoolwidelabs.github.io/sensor-immersion/)
+## Lesson 2
+The Tutorials in this lesson explore how the micro:bit communicates with the sensors to collect data.
 
-## Tutorials
+### Magnetometer 
+* [Magnetometer Collector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
+* Optional Extensions
+  * [Magnetometer Real Time Display Simulation](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_datalogger)
+  * [Magnetometer Real Time Display with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
+### Environmental Sensor
+* [Temperature Collector Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
+* [Temperature Collector Intermediate]
+* [Temperature Collector Advanced]
+* [Temperature Collector Data Logger]
+* [Temperature Collector Data Logger using Radio]
 
 ### Sound Sensor
-* [Sound Data](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Data)
-* [Sound Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Display)
-
-### Environmental Sensor
+To be added.
 
 ### Soil Moisture Sensor
+To be added.
 
-### Particle Sensor
+## Lesson 3
+The tutorials in this lesson help you figure out how the micro:bit asks questions about the data to create different combinations of lights and sound. 
 
-### UV Sensor 
-
-### Temperature Sensor
-* [Display Temperaure (micro:bit sensor)](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature)
-* [Display Temperature (Gator:Environmental Sensor)](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
-
-### Magnetometer
-* [Magnetometer Display](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_field_strength)
+### Magnetometer 
 * [Magnetometer Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_metal_detector)
 * [Magnetometer Modified Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_modified_metal_detector)
-* [Magnetometer Real Time Display Simulation](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_datalogger)
-* [Magnetometer Real Time Display with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
-### Accelerometer 
 
-## Use as Extension
+### Environmental Sensor
+To be added
 
-[//] This repository can be added as an **extension** in MakeCode.
+### Sound Sensor
+To be added.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/schoolwidelabs/sensor-immersion** and import
+### Soil Moisture Sensor
+* [Soil Moisture Display Beginner]
+* [Soil Moisture Display Intermediate]
+* [Soil Moisture Display Advanced]
+* [Soil Moisture Display Data Logger]
+* [Soil Moisture Display Data Logger using Radio]
 
-## Edit this project ![Build status badge](https://github.com/schoolwidelabs/sensor-immersion/workflows/MakeCode/badge.svg)
 
-To edit this repository in MakeCode.
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/schoolwidelabs/sensor-immersion** and click import
-
-## Blocks preview
-
-This image shows the blocks code from the last commit in master.
-This image may take a few minutes to refresh.
-
-![A rendered view of the blocks](https://github.com/schoolwidelabs/sensor-immersion/raw/master/.github/makecode/blocks.png)
-
-#### Metadata (used for search, rendering)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
