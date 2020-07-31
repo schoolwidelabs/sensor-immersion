@@ -12,7 +12,7 @@ The Tutorials in this lesson explore how the micro:bit communicates with the sen
 ### Environmental Sensor
 * [Temperature Collector Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
 * [Temperature Collector Intermediate](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_intermediate)
-* [Temperature Collector Advanced]
+* [Temperature Collector Advanced](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_advanced)
 * [Temperature Collector Data Logger]
 * [Temperature Collector Data Logger using Radio]
 
