@@ -1,124 +1,48 @@
 # Sound Sensor Data Display
+### @explicitHints true
 
-## Introduction
-When you press ``||input: button A||``, ``||logic: if||`` the ``||gatorMicrophone: sound||`` is ``||logic: less||`` than 750 then show a smiley face ``||logic: else||`` show an X if the ``||gatorMicrophone: sound||`` is ``||logic: more than||`` 750. Things to think about. Draw a picture to help think about what you want to happen. When you're ready click the NEXT button to get started.
+## Step 1
+In this tutorial you are going to learn how to ask questions about the value from
+the sound sensor in order to turn on lights and make a sound. The lights are controlled
+by Pin 12 on the gator:bit and are already initialized for you. 
+The lights are called ``||Variables: strip||``.
 
-## Step 2 
-Use ``||input: button A||`` to ``||basic: show||`` the ``||gatorSound: sound intensity||``
+The google form for this tutorial is still under development.
 
-```blocks
+```template
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(gatorMicrophone.getSoundIntensity())
+   
 })
+let strip = neopixel.create(DigitalPin.P12, 5, NeoPixelMode.RGB)
 ```
 
-## Step 3
-Now code your micro:bit to display ``||basic: a smiley face||`` ``||logic: if||`` the  ``||gatorSound: sound intensity||`` 
-is ``||logic: less than||`` 750.
+## Step 2
+When you press ``||input: button A||``, you will ask a question about the data.
 
-```blocks
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(gatorMicrophone.getSoundIntensity())
-    if (gatorMicrophone.getSoundIntensity() < 750) {
-        basic.showLeds(`
-            . . . . .
-            . # . # .
-            . . . . .
-            # . . . #
-            . # # # .
-            `)
-    }
-})
-```
+#### ~ tutorialhint
+What ``||logic: block||`` lets you ask questions about the data?
+
+## Step 3 
+``||logic: If||`` the ``||gatorMicrophone: sound intensity||`` is ``||logic: greater than 500||``, turn the ``||Neopixel: lights yellow||``.
 
 ## Step 4
-Now code your micro:bit to display ``||basic: X||`` if the  ``||gatorSound: sound intensity||`` 
-is ``||logic: greater than||`` 750. 
+``||logic: If||`` the ``||gatorMicrophone: sound intensity||`` is ``||logic: less than or equal to 500||``, turn the ``||Neopixel:lights blue||`` and ``||Music: play a happy song||``.
+#### ~ tutorialhint
+The value of sound intensity is either more than 500 OR less than or equal to 500. 
+The ``||logic: else||`` part of the if-then-else statement can come in handy here.
 
-
-```blocks
+```ghost
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(gatorMicrophone.getSoundIntensity())
-    if (gatorMicrophone.getSoundIntensity() < 750) {
-        basic.showLeds(`
-            . . . . .
-            . # . # .
-            . . . . .
-            # . . . #
-            . # # # .
-            `)
+    if (gatorMicrophone.getSoundIntensity() > 500) {
+        strip.showColor(neopixel.colors(NeoPixelColors.Yellow))
     } else {
-        basic.showIcon(IconNames.No)
+        strip.showColor(neopixel.colors(NeoPixelColors.Blue))
+        music.startMelody(music.builtInMelody(Melodies.Dadadadum), MelodyOptions.Once)
     }
 })
-
+let strip: neopixel.Strip = null
+strip = neopixel.create(DigitalPin.P12, 5, NeoPixelMode.RGB)
 ```
-## Step 5
-``|Download your code|`` and try it out
-
-## Step 6
-Modify the program so that when you press ``||input: button B||``, ``||logic: if||`` the ``||gatorSound: sound||`` is ``||logic: less than||`` 400, the gator:bit ``||music: plays a song||``. 
-
-```blocks
-input.onButtonPressed(Button.B, function () {
-    if (gatorMicrophone.getSoundIntensity() <400) {
-        music.beginMelody(music.builtInMelody(Melodies.Ode), MelodyOptions.Once)
-        basic.showString("Music")
-    }
-})
-```
-
-## Step 7
-``|Download|`` your code and try it out
-
-## Step 8
-Modify either the lights or music to ``||Loops: repeat||`` 5 times
-
-```blocks
-input.onButtonPressed(Button.A, function () {
-    for (let i = 0; i < 5; i++) {
-        basic.showNumber(gatorMicrophone.getSoundIntensity())
-        if (gatorMicrophone.getSoundIntensity() < 750) {
-            basic.showLeds(`
-                . . . . .
-                . # . # .
-                . . . . .
-                # . . . #
-                . # # # .
-                `)
-        } else {
-            basic.showIcon(IconNames.No)
-        }
-    }
-}) }
-})
-```
-
-## Step 9
-``||basic: wait||`` 10 seconds in between each time the sensor takes a reading
-```blocks
-input.onButtonPressed(Button.A, function () {
-    for (let i = 0; i < 5; i++) {
-        basic.showNumber(gatorMicrophone.getSoundIntensity())
-        if (gatorMicrophone.getSoundIntensity() < 750) {
-            basic.showLeds(`
-                . . . . .
-                . # . # .
-                . . . . .
-                # . . . #
-                . # # # .
-                `)
-        } else {
-            basic.showIcon(IconNames.No)
-        }
-        basic.pause(10000)
-    }
-})
-```
-## Step 10
-``|Download|`` the code and try it out.
-
-
 
 ```package
 gatorMicrophone=github:sparkfun/pxt-gator-microphone#v1.0.20

@@ -9,12 +9,13 @@ The Tutorials in this lesson explore how the micro:bit communicates with the sen
 * Optional Extensions
   * [Magnetometer Real Time Display Simulation](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_datalogger)
   * [Magnetometer Real Time Display with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
+
 ### Environmental Sensor
 * [Temperature Collector Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
 * [Temperature Collector Intermediate](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_intermediate)
 * [Temperature Collector Advanced](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_advanced)
-* [Temperature Collector Data Logger]
-* [Temperature Collector Data Logger using Radio]
+* Temperature Collector Data Logger: To be added.
+* Temperature Collector Data Logger using Radio: To be added.
 
 ### Sound Sensor
 To be added.
@@ -33,14 +34,15 @@ The tutorials in this lesson help you figure out how the micro:bit asks question
 To be added
 
 ### Sound Sensor
-To be added.
+* [Sound Display Beginner](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Tutorial_Sound_Display)
+* Sound Display Intermediate: To be added.
+* Sound Display Advanced: To be added.
+* Sound Display Data Logger: To be added.
+* Sound Display Data Logger using Radio: To be added.
 
 ### Soil Moisture Sensor
-* [Soil Moisture Display Beginner]
-* [Soil Moisture Display Intermediate]
-* [Soil Moisture Display Advanced]
-* [Soil Moisture Display Data Logger]
-* [Soil Moisture Display Data Logger using Radio]
+To be added.
+
 
 
 
