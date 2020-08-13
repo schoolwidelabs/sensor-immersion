@@ -47,7 +47,7 @@ input.onButtonPressed(Button.A, function () {
 ## Step 5
 Great! You did it. Now you can test it out. How could you use the Math buttons to change the display to two times the temperature? Would you round before or after you double the temperature?
  
-**Don't forget to fill out the final questions on the goolge form.**
+**Don't forget to fill out the final questions on the google form.**
  
 ```ghost
 input.onButtonPressed(Button.A, function () {
