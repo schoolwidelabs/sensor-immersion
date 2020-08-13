@@ -3,7 +3,7 @@
  
 ## Step 1
  
-We are going to learn how to use a micro:bit to display temperature values
+We are going to learn how to use a micro:bit and gator:bit environmental sensor to display temperature values
  
 Submit your answers using the google form under your teacher's name titled "display temperature gatorEnvironment"
  
