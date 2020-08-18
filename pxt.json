@@ -22,7 +22,8 @@
         "tutorial_display_temperature.md",
         "tutorial_display_temperature_gatorenvironment.md",
         "temperature_collector_intermediate.md",
-        "temperature_collector_advanced.md"
+        "temperature_collector_advanced.md",
+        "images/co2.jpg"
     ],
     "testFiles": [
         "test.ts"
