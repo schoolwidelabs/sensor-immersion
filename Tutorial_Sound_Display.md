@@ -18,9 +18,12 @@ let strip = neopixel.create(DigitalPin.P12, 5, NeoPixelMode.RGB)
 
 ## Step 2
 When you press ``||input: button A||``, you will ask a question about the data.
+![Lights flashing](/images/co2.png)
 
 #### ~ tutorialhint
 What ``||logic: block||`` lets you ask questions about the data?
+![Lights](/images/co2.png)
+
 
 ## Step 3 
 ``||logic: If||`` the ``||gatorMicrophone: sound intensity||`` is ``||logic: greater than 500||``, turn the ``||Neopixel: lights yellow||``.
