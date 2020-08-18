@@ -4,7 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*"
+        "radio": "*",
+        "images": "*"
     },
     "files": [
         "README.md",
@@ -22,8 +23,7 @@
         "tutorial_display_temperature.md",
         "tutorial_display_temperature_gatorenvironment.md",
         "temperature_collector_intermediate.md",
-        "temperature_collector_advanced.md",
-        "images/co2.jpg"
+        "temperature_collector_advanced.md"
     ],
     "testFiles": [
         "test.ts"
