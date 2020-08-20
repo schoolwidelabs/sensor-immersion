@@ -11,7 +11,7 @@ The Tutorials in this lesson explore how the micro:bit communicates with the sen
 
 ### Magnetometer 
 * [Show Magnet Strength New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson2/New/magnetometer)
-* [Show Magnet Strength New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson2/Experienced/magnetometer)
+* [Show Magnet Strength Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson2/Experienced/magnetometer)
 * [Extension](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson2/Extensions/magnetometer)
 
 ### Soil Moisture Sensor
