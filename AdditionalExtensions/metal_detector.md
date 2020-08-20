@@ -5,9 +5,7 @@
  
 We are going write a program to help you find metal objects, your microbit will become a metal detector
  
-Submit your answers using the google form under your teacher's name titled "Metal Detector"
- 
-https://schoolwidelabs.github.io/sensor-immersion-metal-detector
+Submit your answers using the google form linked on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/AdditionalExtensions/metal_detector_assessment.html) under your teacher's name. 
  
 ```template
 input.onButtonPressed(Button.A, function () {

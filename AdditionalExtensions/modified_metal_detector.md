@@ -5,9 +5,7 @@
  
 We are now going to modify your previous metal detector to customize it to your personal interests and make it more advanced 
  
-Submit your answers using the google form under your teacher's name titled "Modified Metal Detector"
- 
-https://schoolwidelabs.github.io/sensor-immersion-modified-metal-detector  
+Submit your answers using the google form linked on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/AdditionalExtensions/modified_metal_detector_assessment.html) under your teacher's name.  
  
 ```template
 input.onButtonPressed(Button.A, function () {

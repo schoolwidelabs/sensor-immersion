@@ -5,9 +5,7 @@
  
 We are going to learn how to use a micro:bit to collect data on the magnetic force that you can see on your computer screen.
  
-Submit your answers using the google form under your teacher's name titled "magnetic field data logger simulator"
- 
-https://schoolwidelabs.github.io/sensor-immersion-magnetic-data-logger-simulator  
+Submit your answers using the google form linked on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/AdditionalExtensions/magnet_datalogger_assessment.html) under your teacher's name. 
  
 ```template
 basic.forever(function () {
