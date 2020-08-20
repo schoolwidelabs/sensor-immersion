@@ -20,7 +20,7 @@ The Tutorials in this lesson explore how the micro:bit communicates with the sen
 * [Extension]()
 
 ### Sound Sensor
-* [Show Sound New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
+* [[Show Sound New Programmers]](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/tutorial_display_temperature_gatorenvironment)
 * [Show Sound Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/temperature_collector_intermediate)
 * [Extension]()
 
