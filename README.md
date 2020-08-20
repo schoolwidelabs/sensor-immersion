@@ -43,6 +43,9 @@ To be added
 ### Soil Moisture Sensor
 To be added.
 
+### Assessments
+* [Lesson 2 Show Sound](/assessments/Lesson2/sound_assessment.md)
+
 
 
 
