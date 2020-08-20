@@ -4,13 +4,21 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "Lesson2": "*"
+        "radio": "*"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "Lesson2/New/sound.md",
+        "Lesson2/New/soilMoisture.md",
+        "Lesson2/New/environmental.md",
+        "Lesson2/Experienced/environmental.md",
+        "Lesson2/Experienced/soilMoisture.md",
+        "Lesson2/Experienced/sound.md",
+        "Lesson2/Extensions/environmental.md",
+        "Lesson2/Extensions/soilMoisture.md",
+        "Lesson2/Extensions/sound.md",
     ],
     "testFiles": [
         "test.ts"
