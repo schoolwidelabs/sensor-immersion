@@ -57,10 +57,21 @@ The tutorials in this lesson help you figure out how the micro:bit asks question
 ## Additional Extensions
 These are additional extensions that students can complete if interested and/or they have time. These are still under development and may contain errors.
 
-* [Magnet Strength Real Time DataLogger](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_datalogger)
-* [Magnet Strength Real Time DataLogger with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_display_magnetic_field_radio_two_microbits_and_simulator)
-* [Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_metal_detector)
-* [Modified Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/magnetometer_modified_metal_detector)
+### Tutorials
+* [Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/metal_detector)
+* [Modified Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/modified_metal_detector)
+* [Magnet Strength Real Time DataLogger](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/magnetometer_datalogger)
+* [Magnet Strength Real Time DataLogger with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/magnetometer_datalogger_radio)
+
+
+### Assessments
+* [Metal Detector](/assessments/AdditionalExtensions/metal_detector_assessment.md)
+* [Modified Metal Detector](/assessments/AdditionalExtensions/modified_metal_detector_assessment.md)
+* [Magnet Strength Real Time DataLogger](/assessments/AdditionalExtensions/magnet_datalogger_assessment.md)
+* [Magnet Strength Real Time DataLogger with 2 Micro:Bits](/assessments/AdditionalExtensions/magnet_datalogger_radio_assessment.md)
+
+
+
 
 
 

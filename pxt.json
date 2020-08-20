@@ -30,7 +30,11 @@
         "Lesson3/Experienced/sound.md",
         "Lesson3/Extensions/environmental.md",
         "Lesson3/Extensions/soilMoisture.md",
-        "Lesson3/Extensions/sound.md"
+        "Lesson3/Extensions/sound.md",
+        "AdditionalExtensions/magnetometer_datalogger.md",
+        "AdditionalExtensions/magnetometer_datalogger_radio.md",
+        "AdditionalExtensions/metal_detector.md",
+        "AdditionalExtensions/modified_metal_detector.md"
     ],
     "testFiles": [
         "test.ts"
