@@ -18,7 +18,7 @@
         "Lesson2/Experienced/sound.md",
         "Lesson2/Extensions/environmental.md",
         "Lesson2/Extensions/soilMoisture.md",
-        "Lesson2/Extensions/sound.md",
+        "Lesson2/Extensions/sound.md"
     ],
     "testFiles": [
         "test.ts"
