@@ -1,6 +1,6 @@
 ## Lesson 2 Show Magnet Strength Formative Assessment
 
-Clink on your teacher's name to start the assessment.
+Click on your teacher's name to start the assessment.
 
 * [Template](https://docs.google.com/forms/d/e/1FAIpQLSfVCBNF7jxA5KNb4fRwnb9eVQlmpz4HiofQ7IzMcdEU5oqtKQ/viewform)
 * [Ball]()
