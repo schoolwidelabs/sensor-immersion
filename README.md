@@ -42,7 +42,7 @@ The tutorials in this lesson help you figure out how the micro:bit asks question
 ### Soil Moisture Sensor
 * [Soil Moisture Alarm New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/New/soilMoisture)
 * [Soil Moisture Alarm Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Experienced/soilMoisture)
-* Extension: Coming Soon <!---(https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/soilMoisture)--->
+* Extension: Coming Soon <!--- https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/soilMoisture --->
 
 ### Sound Sensor
 * [Sound Graph New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/New/sound)
