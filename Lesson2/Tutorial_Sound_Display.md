@@ -22,7 +22,7 @@ When you press ``||input: button A||``, you will ask a question about the data.
 
 #### ~ tutorialhint
 What ``||logic: block||`` lets you ask questions about the data?
-![Lights](co2.png)
+
 
 
 ## Step 3 
