@@ -5,7 +5,7 @@
  
 We are going to learn how to use a micro:bit and gatorMicrophone to display sound values
  
-Submit your answers using the google form titled with your teacher's name on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/Lesson2/sound_assessment.html):
+Submit your answers using the google form linked on[this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/Lesson2/sound_assessment.html) under your teacher's name. 
  
 ```template
 input.onButtonPressed(Button.A, function () {
@@ -19,7 +19,7 @@ input.onButtonPressed(Button.A, function () {
  
 Describe your plan for getting the microbit to display the sound intensity
  
-If you need help with wiring, take a look at these guides: https://rb.gy/eavfdv
+If you need help with wiring, take a look at [these guides.](https://docs.google.com/document/d/1KrhVLl_owwXz_xAVbcIEAG9O5N4wdBY3mjd-GX34Bag/edit?usp=sharing)
  
 ## Step 3
  
