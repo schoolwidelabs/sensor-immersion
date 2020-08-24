@@ -42,6 +42,7 @@ Remember that order matters, the get CO2 needs to be on the pointy side and the 
  
 
 ![Alarm Value Logic](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/co2.png)
+)
  
 ## Step 6
  
