@@ -4,6 +4,7 @@
     "description": "",
     "dependencies": {
         "core": "*",
+        "docs": "*",
         "radio": "*"
     },
     "files": [
@@ -34,7 +35,6 @@
         "AdditionalExtensions/magnetometer_datalogger.md",
         "AdditionalExtensions/magnetometer_datalogger_radio.md",
         "AdditionalExtensions/metal_detector.md",
-        "docs/static/tutorials/co2.png",
         "AdditionalExtensions/modified_metal_detector.md"
     ],
     "testFiles": [
