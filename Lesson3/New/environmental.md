@@ -19,7 +19,7 @@ To start, use the GatorEnvironment ``||gatorEnvironment: initialize||`` command 
  
 ## Step 3
  
-First we need to ‘calibrate’ the sensor to find what values for CO2 are above normal and should sound the alarm. Use your skills from Lesson 2 to determine the current level of CO2 in the room. 
+First we need to 'calibrate' the sensor to find what values for CO2 are above normal and should sound the alarm. Use your skills from Lesson 2 to determine the current level of CO2 in the room. 
  
 **Enter this value on question 2 on the google form**
  
@@ -31,14 +31,14 @@ You are going to need to make a temporary program or use an old program (from Le
  
 Now that you know what the CO2 level is in the room, pick a number that is higher than it. We are going to program the alarm to sound if the CO2 goes above this value.  
  
-**Enter this ‘alarm value’ on question 3 on the google form**
+**Enter this 'alarm value' on question 3 on the google form**
  
 ## Step 5
  
-We need to set a logic command to test if the measured CO2 is below your selected ‘alarm value’. Use the ``||gatorEnvironment.GatorEnvironment.get||`` and ``||logic. 0 < 0 ||`` commands to write this logic statement for when the observed CO2 is less than (<) your ‘alarm value’. 
+We need to set a logic command to test if the measured CO2 is below your selected 'alarm value'. Use the ``||gatorEnvironment.GatorEnvironment.get||`` and ``||logic. 0 < 0 ||`` commands to write this logic statement for when the observed CO2 is less than (<) your 'alarm value'. 
  
 #### ~ tutorialhint
-Remember that order matters, the get CO2 needs to be on the pointy side and the ‘alarm value’ needs to be on the side where the < opens towards. 
+Remember that order matters, the get CO2 needs to be on the pointy side and the 'alarm value' needs to be on the side where the < opens towards. 
  
 
 ![Alarm Value Logic](https://schoolwidelabs.github.io/sensor-immersion/images/co2.png)
@@ -46,12 +46,12 @@ Remember that order matters, the get CO2 needs to be on the pointy side and the 
  
 ## Step 6
  
-Now that we have the ‘alarm value’ logic, it is time to make an if statement to tell the microbit what to do when the values are BELOW this value... that is, when the alarm is not going off.
+Now that we have the 'alarm value' logic, it is time to make an if statement to tell the microbit what to do when the values are BELOW this value... that is, when the alarm is not going off.
  
 Use the forever, ``||basic:Show Icon||``, ``||basic:Pause||`` and ``||logic:If Else||`` and commands to determine what happens when the CO2 observed is below the alarm value. Adding a pause after you show the icon keeps it from going too fast. 
  
 #### ~ tutorialhint
-It will look like this, although you may have an ‘alarm value’ other than 1000
+It will look like this, although you may have an 'alarm value' other than 1000
 ```blocks
 basic.forever(function () {
     if (gatorEnvironment.getMeasurement(measurementType.eCO2) < 1000) {
@@ -65,7 +65,7 @@ basic.forever(function () {
  
 ## Step 7
  
-The final step is to tell the microbit what to do if the observed CO2 value is NOT below your ‘alarm value’. This goes in the ‘else’ part of the ``||logic:If Else||`` command. 
+The final step is to tell the microbit what to do if the observed CO2 value is NOT below your 'alarm value'. This goes in the 'else' part of the ``||logic:If Else||`` command. 
  
 We recommend you have a ``||basic:Show Icon||``, ``||music:play tone||`` and ``||basic:Pause||`` commands in that order. Also, the icon should be different from when the alarm is not going off. 
  
