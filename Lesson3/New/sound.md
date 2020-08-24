@@ -36,7 +36,7 @@ Note that you may need to flip the < to a < depending on where you put the 'get 
 #### ~ tutorialhint
 Remember that order matters, the 'alarm value' needs to be on the pointy side and the get sound needs to be on the side where the < opens towards. 
 
-![Alarm Value Logic](/static/tutorials/co2.png)
+![Alarm Value Logic](https://github.com/schoolwidelabs/sensor-immersion/blob/master/docs/static/tutorials/co2.png)
  
 ## step 5
  
