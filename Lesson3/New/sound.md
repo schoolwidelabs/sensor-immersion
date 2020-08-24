@@ -36,7 +36,7 @@ Note that you may need to flip the < to a < depending on where you put the 'get 
 #### ~ tutorialhint
 Remember that order matters, the 'alarm value' needs to be on the pointy side and the get sound needs to be on the side where the < opens towards. 
 
-![Alarm Value Logic](https://www.colorado.edu/brand/sites/default/files/page/boulder-fl-centered-2.png)
+![Alarm Value Logic](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/co2.png)
 ## step 5
  
 You are going to be graphing the sound on the microbit with the ``||led:plotBarGraph||`` command. The first number is the value to be graphed, use ``||gatorMicrophone:Sound Intensity||``. The 'up to' number is the top of the graph. Enter the highest (loudest) value you have seen for the sound sensor or maybe something a little above this. Feel free to play with this number and see what you like best.
