@@ -39,7 +39,7 @@ We need to set a logic command to test if the measured CO2 is below your selecte
 Remember that order matters, the get CO2 needs to be on the pointy side and the ‘alarm value’ needs to be on the side where the < opens towards. 
  
 
-![Alarm Value Logic](/static/tutorials/co2.jpg)
+![Alarm Value Logic](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/co2.png)
  
 ## Step 6
  

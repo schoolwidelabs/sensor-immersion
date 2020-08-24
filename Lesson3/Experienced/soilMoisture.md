@@ -14,7 +14,7 @@ When wiring the soil sensor, you should have the signal wire go from the SIG pin
  
 #### ~ tutorialhint
  
-If you need help with wiring, take a look at these guides: https://rb.gy/eavfdv
+![Soil Wiring](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/soil_diagram.png)
  
 ## Step 3
  
@@ -36,7 +36,7 @@ Note that you may need to flip the < to a < depending on where you put the ‘ge
 Remember that order matters, the ‘alarm value’ needs to be on the pointy side and the get soil moisture needs to be on the side where the < opens towards. 
  
 
-![Alarm Value Logic2](/static/tutorials/soil2.jpg)
+![Alarm Value Logic2](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/soil_code.png)
  
 ## Step 5
  

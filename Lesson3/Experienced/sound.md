@@ -31,7 +31,7 @@ Note that you may need to flip the < to a < depending on where you put the ‘ge
 Remember that order matters, the ‘alarm value’ needs to be on the pointy side and the get sound needs to be on the side where the < opens towards. 
  
 
-![Alarm Value Logic](/static/tutorials/sound.jpg)
+![Alarm Value Logic](https://raw.githubusercontent.com/schoolwidelabs/sensor-immersion/master/images/sound.png)
  
 ## step 5
  
