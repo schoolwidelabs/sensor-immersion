@@ -9,7 +9,7 @@ Click on your teacher's name to start the assessment.
 * [Guillen]()
 * [Hammrich]()
 * [Havens]()
-* [Kennedy]()
+* [Kennedy](https://docs.google.com/forms/d/e/1FAIpQLSd9taDfOnuVoSWPO9yy3cyrO5-znZd8PfPzzSg_mQJr6_Jp8w/viewform?usp=sf_link)
 * [Mahecha]()
 * [Martin]()
 * [Moen]()
