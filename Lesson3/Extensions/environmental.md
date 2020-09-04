@@ -1,5 +1,7 @@
 # pressure and humidity gauge
 ### @explicitHints true
+
+## Step 0
  
 ```template
 input.onButtonPressed(Button.A, function () {  basic.showNumber(Math.round(gatorEnvironment.getMeasurement(measurementType.humidity)))
