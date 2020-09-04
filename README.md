@@ -37,17 +37,17 @@ The tutorials in this lesson help you figure out how the micro:bit asks question
 ### Environmental Sensor
 * [CO2 Alarm New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/New/environmental)
 * [CO2 Alarm Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Experienced/environmental)
-* [Extension] (https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/environmental)
+* [Extension](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/environmental)
 
 ### Soil Moisture Sensor
 * [Soil Moisture Alarm New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/New/soilMoisture)
 * [Soil Moisture Alarm Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Experienced/soilMoisture)
-* [Extension]  (https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/soilMoisture)
+* [Extension] (https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/soilMoisture)
 
 ### Sound Sensor
 * [Sound Graph New Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/New/sound)
 * [Sound Graph Experienced Programmers](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Experienced/sound)
-* [Extension] (https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/sound)
+* [Extension](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/Lesson3/Extensions/sound)
 
 ### Lesson 3 Assessments
 * [Environmental Sensor](/assessments/Lesson3/environmental_assessment.md)
