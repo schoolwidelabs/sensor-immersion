@@ -7,7 +7,7 @@ Click on your teacher's name to start the assessment.
 * [Fussner]()
 * [Grierson](https://docs.google.com/forms/d/e/1FAIpQLSc1w4HppgHht_8qJyaWyx2gRdNPbpv1UfY7Rtq9dFkWdoHiJg/viewform?usp=sf_link)
 * [Guillen]()
-* [Hammrich]()
+* [Hammrich](https://docs.google.com/forms/d/e/1FAIpQLSeTNEHp6fEnhVqMaLqGDpZc5qqaZ1X43aIMkR1zccmpB_J14A/viewform?usp=sf_link)
 * [Havens]()
 * [Kennedy]()
 * [Mahecha]()
