@@ -14,7 +14,7 @@ Click on your teacher's name to start the assessment.
 * [Martin]()
 * [Moen]()
 * [Roscini]()
-* [Smith]()
+* [Smith](https://docs.google.com/forms/d/e/1FAIpQLSco66lbfuhn-W54WqDUgj-dn31gyKOCxLQpgwVDdr_c0kvjSg/viewform?usp=sf_link)
 * [Sunderland]()
 * [Tyler]()
 * [Zald]()
