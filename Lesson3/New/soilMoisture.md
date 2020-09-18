@@ -31,7 +31,7 @@ You are going to need to make a temporary program or use an old program (from Le
  
 ## Step 4
  
-We need to set a logic command to test if the measured soil moisture is below your selected ‘alarm value’. Use the ``||gatorSoil:GetMoisture||``  and ``||logic. 0 < 0 ||`` commands to write this logic statement for when the observed soil moisture is greater than (>) your ‘alarm value’. 
+We need to set a logic command to test if the measured soil moisture is below your selected ‘alarm value’. Use the ``||gatorSoil:GetMoisture||``  and ``||logic: 0 < 0 ||`` commands to write this logic statement for when the observed soil moisture is greater than (>) your ‘alarm value’. 
  
 Note that you may need to flip the < to a < depending on where you put the ‘get moisture’ command
  
