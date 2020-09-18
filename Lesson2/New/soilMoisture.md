@@ -3,7 +3,7 @@
  
 ## Step 1
  
-We are going to learn how to use a micro:bit and gatorSoil to display soil moisture values
+We are going to learn how to use a micro:bit and gatorSoil to display soil moisture values.
  
 Submit your answers using the google form linked on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/Lesson2/soil_moisture_assessment.html) under your teacher's name.
  
