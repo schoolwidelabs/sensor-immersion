@@ -40,7 +40,7 @@ What is the difference between putting this command in the block for ``||Basic: 
  
 Experiment with each and when you are done, **put your answer and a screenshot of your final code in the google form**
  
-If you get the message “tilt to fill screen” and need help, [read this page or watch the video here.](https://support.microbit.org/support/solutions/articles/19000008874-calibrating-the-micro-bit-compass#:~:text=When%20you%20load%20a%20program,this%2C%20your%20program%20will%20run.)
+If you get the message "tilt to fill screen" and need help, [read this page or watch the video here.](https://support.microbit.org/support/solutions/articles/19000008874-calibrating-the-micro-bit-compass#:~:text=When%20you%20load%20a%20program,this%2C%20your%20program%20will%20run.)
  
 ## Step 5
  
