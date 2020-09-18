@@ -36,7 +36,7 @@ basic.showNumber(input.magneticForce(Dimension.Strength))
  
 ## Step 4
  
-What is the difference between putting this command in the block for ``||basic:on start||``, the block ``||basic:forever||``, or ``||input:on button A pressed||``?
+What is the difference between putting this command in the block for ``||Basic: on start||``, the block ``||Basic: forever||``, or ``||Input: on button A pressed||``?
  
 Experiment with each and when you are done, **put your answer and a screenshot of your final code in the google form**
  
