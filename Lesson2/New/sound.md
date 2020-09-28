@@ -5,7 +5,7 @@
  
 We are going to learn how to use a micro:bit and gatorMicrophone to display sound values
  
-Submit your answers using the google form linked on[this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/Lesson2/sound_assessment.html) under your teacher's name. 
+Submit your answers using the google form linked on [this page](https://schoolwidelabs.github.io/sensor-immersion/assessments/Lesson2/sound_assessment.html) under your teacher's name. 
  
 ```template
 input.onButtonPressed(Button.A, function () {
@@ -34,7 +34,7 @@ input.onButtonPressed(Button.A, function () {basic.showNumber(0)}
  
 ## Step 4
  
-Now change the value of ``||basic:showNumber||`` to be the sound with ``||gator:sound.intensity||`` 
+Now change the value of ``||basic:showNumber||`` to be the sound with ``||gatorMicrophone:sound.intensity||`` 
  
  
 #### ~ tutorialhint
