@@ -28,7 +28,7 @@ basic.forever(function () {
  
 ## Step 3
  
-Now change the value being graphed to be the sound with ``||gator:soil.moisture||`` 
+Now change the value being graphed to be the sound with ``||gator:soil moisture||`` 
  
 You should have the signal come from the pin on P2 and the power come from the pin on P1
  
@@ -61,7 +61,7 @@ basic.forever(function () {
 ```
  
 ## step 5
-Great! You did it. Now you can test it out. Does the graph change as the moisture changes? What happens if you change the ‘up to’ value for the ``||led.plotBarGraph||`` ?
+Great! You did it. Now you can test it out. Does the graph change as the moisture changes? What happens if you change the `||led.up to||`` value for the ``||led.plotBarGraph||`` ?
  
  
 ```ghost
