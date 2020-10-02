@@ -16,7 +16,7 @@ input.onButtonPressed(Button.A, function () {
  
 ## Step 2
  
-To start, use the ``||basic:show number||`` command to display any number when button A is pressed
+To start, use the ``||basic:show number||`` command to display any number ``||input:when button A is pressed||``
  
 #### ~ tutorialhint
 Try clicking on the 'Basic' drawer to find the block you need!
