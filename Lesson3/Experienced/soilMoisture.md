@@ -24,16 +24,16 @@ First we need to ‘calibrate’ the sensor to find the ‘alarm value’ for so
  
 #### ~ tutorialhint
  
-You are going to need to make a temporary program or use an old program (from Lesson 2) that has the ‘show value’ and gator soil ‘get’ commands. 
+You are going to need to make a temporary program or use an old program (from Lesson 2) that has the ``||basic:ShowNumber||`` and gator soil ``||gatorsoil:get||`` commands. 
  
 ## Step 4
  
-We need to set a logic command to test if the measured soil moisture is below your selected ‘alarm value’. Use the gator soil ‘get’ and ‘ 0 < 0 ‘  commands to write this logic statement for when the observed soil moisture is less than (<) your ‘alarm value’. 
+We need to set a ``||logic:logic||`` command to test if the measured soil moisture is below your selected ‘alarm value’. Use the gator soil ``||gatorsoil:get||`` and ``||logic:0 < 0||``  commands to write this logic statement for when the observed soil moisture is less than (<) your ‘alarm value’. 
  
-Note that you may need to flip the < to a < depending on where you put the ‘get moisture’ command
+Note that you may need to flip the < to a > depending on where you put the ``||gatorsoil:get moisture||`` command
  
 #### ~ tutorialhint
-Remember that order matters, the ‘alarm value’ needs to be on the pointy side and the get soil moisture needs to be on the side where the < opens towards. 
+Remember that order matters, the ‘alarm value’ needs to be on the pointy side and the ``||gatorsoil:get soil moisture||`` needs to be on the side where the < opens towards. 
  
 
 ![Alarm Value Logic2](https://schoolwidelabs.github.io/sensor-immersion/images/soil_code.png)
@@ -42,7 +42,7 @@ Remember that order matters, the ‘alarm value’ needs to be on the pointy sid
  
 Now that we have the ‘alarm value’ logic, it is time to make an if statement to tell the microbit what to do when the values are ABOVE this value... that is, when the alarm is not going off.
  
-Use the forever, ‘Show Icon’, ‘Pause’ and ‘If Else” and commands to determine what happens when the soil moisture observed is above the alarm value. Adding a pause after you show the icon keeps it from going too fast. 
+Use the forever, ``||basic:Show Icon||``, ``||basic:Pause||`` and ``||logic:If Else||`` commands to determine what happens when the soil moisture observed is above the alarm value. Adding a ``||basic:pause||`` after you show the icon keeps it from going too fast. 
  
 #### ~ tutorialhint
 It will look like this, although you may have an ‘alarm value’ other than 0.5
@@ -59,9 +59,9 @@ basic.forever(function () {
  
 ## Step 6
  
-The final step is to tell the microbit what to do if the observed soil moisture value is NOT above your ‘alarm value’. This goes in the ‘else’ part of the ‘If Else’ command. 
+The final step is to tell the microbit what to do if the observed soil moisture value is NOT above your ‘alarm value’. This goes in the ‘else’ part of the ``||logic:If Else||`` command. 
  
-We recommend you have a ‘show icon’, ‘play tone’ and ‘pause’ commands in that order. Also, the icon should be different from when the alarm is not going off. 
+We recommend you have a ``||basic:show icon||``, ``||music:play tone||`` and ``||basic:pause||`` commands in that order. Also, the icon should be different from when the alarm is not going off. 
  
 ## Step 7
  
