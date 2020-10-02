@@ -18,10 +18,9 @@ Answer question 1 on the google form, describing your plans for how to get the m
  
 ## Step 2
  
-To start, want to use a ``||logic.if||`` command to do something in response to something else
- 
+To start, want to use a ``||logic.if else||`` command to cause a reaction with another command 
 #### ~ tutorialhint
-Make sure your ``||logic.if||`` is inside the ``||input.onButtonPressed||`` command
+Make sure your ``||logic.if else||`` block is inside the ``||input.onButtonPressed||`` command
  
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -63,7 +62,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 ## Step 6
-We also want the metal detector to also tell us the value of the ``||input.magneticForce||``, add that after the ``||logic.if||`` command
+We also want the metal detector to also tell us the value of the ``||input.magneticForce||``, add that after the ``||logic.if else||`` command
  
 #### ~ tutorialhint
 The ``||math.round||`` command rounds the displayed value to the nearest whole number
@@ -78,7 +77,7 @@ input.onButtonPressed(Button.B, function () {
 ```
 ## Step 7
  
-Use the ``||led.setBrightness||`` and ``||basic.showIcon||`` commands before the ``||locic.if||`` command to display a shape of your choice based on how strong the ``||input.magneticForce||`` is
+Use the ``||led.setBrightness||`` and ``||basic.showIcon||`` commands before the ``||logic.if else||`` command to display a shape of your choice based on how strong the ``||input.magneticForce||`` is
  
 ## Step 8
  
