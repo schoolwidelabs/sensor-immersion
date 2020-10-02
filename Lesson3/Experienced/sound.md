@@ -25,7 +25,7 @@ First we need to 'calibrate' the sensor to find the 'alarm value' for sound that
  
 We need to set a logic command to test if the measured sound is above your selected 'alarm value'. Use the 'Sound Intensity'  and ' 0 < 0 ' commands to write this logic statement for when the observed soil moisture is greater than (>) your 'alarm value'. 
  
-Note that you may need to flip the < to a < depending on where you put the 'get moisture' command
+Note that you may need to flip the < to a > depending on where you put the 'get moisture' command
  
 #### ~ tutorialhint
 Remember that order matters, the 'alarm value' needs to be on the pointy side and the get sound needs to be on the side where the < opens towards. 
