@@ -51,7 +51,105 @@ input.onButtonPressed(Button.AB, function () {
     basic.showNumber(Soil_Moisture)
 })
 ```
-    
+
+## Step 5
+Let's download the code and test it out! After you download it and try it out, 
+go on to the next step.
+
+## Step 6
+Now that we saw the sensor values as numbers, let's use them to create a display. 
+We can ask questions about the value of the data using the ``||logic: if then else blocks||``
+and the ``||logic: comparison blocks (>, <)||``. Let's ask a question about temperature and have the
+micro:bit show different things if it's hot or cold.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    Temp = Math.round(gatorEnvironment.getMeasurement(measurementType.degreesF))
+    if (Temp > 75) {
+        basic.showString("HOT")
+        music.playTone(262, music.beat(BeatFraction.Whole))
+    } else {
+        basic.showString("OK")
+    }
+})
+```
+
+## Step 7
+Now add blocks to your program to ``||logic: ask questions||`` about humidity and soil moisture. 
+
+```blocks
+input.onButtonPressed(Button.B, function () {
+    Humid = Math.round(gatorEnvironment.getMeasurement(measurementType.humidity))
+    if (Humid < 25) {
+        basic.showIcon(IconNames.No)
+    } else {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            . # # # .
+            . # # # .
+            # # # # #
+            `)
+    }
+})
+
+input.onButtonPressed(Button.AB, function () {
+    Soil_Moisture = Math.round(100 * gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1))
+    if (Soil_Moisture < 50) {
+        basic.showIcon(IconNames.Sad)
+    } else {
+        basic.showIcon(IconNames.Happy)
+    }
+})
+```
+
+## Step 8
+Let's download the code and test it out! After you download it and try it out, 
+go on to the next step.
+
+## Step 9
+Let's put everything together in the ``||basic: forever block||``. When we use the 
+forever block, it's important to ``||basic: pause||`` between commands so you have time to see what 
+happens. The micro:bit does things way too fast for our eyes to see.
+
+```blocks
+basic.forever(function () {
+    Temp = Math.round(gatorEnvironment.getMeasurement(measurementType.degreesF))
+    Humid = Math.round(gatorEnvironment.getMeasurement(measurementType.humidity))
+    Soil_Moisture = Math.round(100 * gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1))
+    if (Temp > 75) {
+        basic.showString("HOT")
+        music.playTone(262, music.beat(BeatFraction.Whole))
+    } else {
+        basic.showString("OK")
+    }
+    basic.pause(1000)
+    if (Humid < 25) {
+        basic.showIcon(IconNames.No)
+    } else {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            . # # # .
+            . # # # .
+            # # # # #
+            `)
+    }
+    basic.pause(1000)
+    if (Soil_Moisture < 50) {
+        basic.showIcon(IconNames.Sad)
+    } else {
+        basic.showIcon(IconNames.Happy)
+    }
+    basic.pause(1000)
+})
+```
+
+
+## Step 10
+You're done! Let's download the code and test it out! 
+
+
 ```package
 gatorEnvironment=github:sparkfun/pxt-gator-environment#v1.0.13
 gatorSoil=github:sparkfun/pxt-gator-soil#v1.0.3
