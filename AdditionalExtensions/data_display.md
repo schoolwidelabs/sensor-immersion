@@ -146,9 +146,6 @@ basic.forever(function () {
 ```
 
 
-## Step 10
-You're done! Let's download the code and test it out! 
-
 
 ```package
 gatorEnvironment=github:sparkfun/pxt-gator-environment#v1.0.13
