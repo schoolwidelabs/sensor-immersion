@@ -62,6 +62,7 @@ These are additional extensions that students can complete if interested and/or 
 * [Modified Metal Detector](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/modified_metal_detector)
 * [Magnet Strength Real Time DataLogger](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/magnetometer_datalogger)
 * [Magnet Strength Real Time DataLogger with 2 Micro:Bits](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/magnetometer_datalogger_radio)
+* [Data Display Using Temperature, Humidity, and Soil Moisture](https://makecode.microbit.org/#tutorial:github:schoolwidelabs/sensor-immersion/AdditionalExtensions/data_display)
 
 
 ### Assessments
