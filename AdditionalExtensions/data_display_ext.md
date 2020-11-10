@@ -37,6 +37,7 @@ let Soil_Moisture = 0
 Soil_Moisture = 0
 ```
 
+#### ~ tutorialhint
 ```blocks
 input.onButtonPressed(Button.A, function () {
     Temp = Math.round(gatorEnvironment.getMeasurement(measurementType.degreesF))
