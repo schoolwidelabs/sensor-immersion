@@ -35,7 +35,8 @@
         "AdditionalExtensions/magnetometer_datalogger_radio.md",
         "AdditionalExtensions/metal_detector.md",
         "AdditionalExtensions/modified_metal_detector.md",
-        "AdditionalExtensions/data_display.md"
+        "AdditionalExtensions/data_display.md",
+        "AdditionalExtensions/data_display_ext.md"
     ],
     "testFiles": [
         "test.ts"
