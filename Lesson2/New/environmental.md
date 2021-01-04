@@ -26,14 +26,12 @@ Si necesita ayuda con el cableado, consulte [estas guías.](https://docs.google.
 ## Step 3
  
 To start, use the GatorEnvironment ``||gatorEnvironment: initialize||`` command. Start the sensor when the ``||basic: program starts||`` - 
-Para comenzar, use el mandato, GatorEnvironment ``||gatorEnvironment: initialize||``. Inicie el sensor con ``||basic: program starts||``
-
-
+Para comenzar, use el mandato, GatorEnvironment ``||gatorEnvironment: initialize||``. Inicie el sensor con ``||basic: inicia el programa||``
  
 ## Step 4
  
 Use the ``||basic:showNumber||`` and ``||gatorEnvironment.get||`` commands to show the temperature on the micro:bit. Make sure to ``||Math: round||`` 
-so you can read the number on the micro:bit. - Utilice las mandato, ``||basic:showNumber||`` y ``||gatorEnvironment.get||`` para mostrar la temperatura en el micro: bit. Asegúrese de `` || Math: round || `` para que pueda leer el número en el micro:bit.
+so you can read the number on the micro:bit. - Utilice las mandato, ``||basic: monstrar número||`` y ``||gatorEnvironment.get||`` para mostrar la temperatura en el micro: bit. Asegúrese de `` || Math: dedondeo || `` para que pueda leer el número en el micro:bit.
  
  
 #### ~ tutorialhint
