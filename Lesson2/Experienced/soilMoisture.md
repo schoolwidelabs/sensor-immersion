@@ -32,7 +32,7 @@ You should have the signal come from the pin on P2 and the power come from the p
  
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(gatorSoil.moisture(AnalogPin.P1, GatorSoilType.Moisture, DigitalPin.P2))
+    basic.showNumber(gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1))
 })
 ```
  
@@ -45,7 +45,7 @@ Use this command to change the displayed value to be the sound rounded to the ne
 ### ~ tutorialhint
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorSoil.moisture(AnalogPin.P1, GatorSoilType.Moisture, DigitalPin.P2))
+    basic.showNumber(Math.round(gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1))
 })
 ```
  
@@ -56,7 +56,7 @@ Great! You did it. Now you can test it out. How could you use the Math buttons t
  
 ```ghost
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(Math.round(gatorSoil.moisture(AnalogPin.P1, GatorSoilType.Moisture, DigitalPin.P2)))
+    basic.showNumber(Math.round(gatorSoil.moisture(AnalogPin.P2, GatorSoilType.Moisture, DigitalPin.P1)))
 })
 if (0 * 0 == 0 + 0) {
     
